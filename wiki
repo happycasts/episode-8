@@ -1,0 +1,10 @@
+desc:
+
+how to config gnome-terminal, switch to console, emacs shortcuts, vi mode. Ctrl-r
+
+sudo !!
+
+Resources:
+
+http://www.ghacks.net/2010/01/18/linux-command-line-tips/
+http://www.commandlinefu.com/commands/browse
