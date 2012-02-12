@@ -1,11 +1,45 @@
 desc:
 
-how to config gnome-terminal, switch to console, emacs shortcuts, vi mode. Ctrl-r
+1. how to config gnome-terminal, switch to console, emacs shortcuts, vi mode. Ctrl-r
 
-sudo !!
-^hi^hello^
 
 Resources:
 
 http://www.ghacks.net/2010/01/18/linux-command-line-tips/
 http://www.commandlinefu.com/commands/browse
+shortcut list: http://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/
+
+edit->profile preference-> terminal bell
+edit->profile preference-> "gray on black"
+
+edit->keyboard shortcut -> Ctrl-]/[ , Newtab(ctrl-D to close), zoom in/out
+
+gohappycasts
+
+
+
+.bashrc
+
+    PS1
+    ls --color
+
+# bash completion
+
+    /etc/bash_completion /.d
+
+# tricks
+ctrl - r
+type a command, but don't want to exe it: Ctrl-W, Ctrl-C
+sudo !!
+^hi^hello^
+
+use Ctrl-C for Ctrl-g Ctrl-u
+
+use Ctrl-arrow for Alt-B, ALt-F
+
+do not use ctrl-f ctrl-b ctrl-d ctrl-h
+
+
+# vi mode
+
+set -o vi
